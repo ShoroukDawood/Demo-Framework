@@ -1,0 +1,32 @@
+.bgLightBlue{
+    background-color: #1abc9c;
+}
+.icon-home {
+    position: relative; 
+    width: max-content;
+}
+
+.icon-home:before {
+    content: ''; 
+    position: absolute; 
+    height: 4px; 
+    width: 80px; 
+    background: white; 
+    left: -80px; 
+    top: 50%; 
+}
+.icon-home:after {
+    content: ''; 
+    position: absolute; 
+    height: 4px; 
+    width: 80px; 
+    background: white; 
+    right: -80px; 
+    top: 50%; 
+}
+.section-home {
+    padding: 5rem 3rem;
+}
+.vh-50{
+    min-height: 80vh;
+}
